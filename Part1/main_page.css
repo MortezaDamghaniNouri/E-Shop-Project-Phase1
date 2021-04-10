@@ -1,0 +1,74 @@
+/* It is used to remove the initial white spaces which browsers use */
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+
+:root {
+    --font_size: 16;
+    --maximum_width: 1280px;
+
+
+
+
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    top: 0;
+
+
+
+
+
+}
+
+footer {
+
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Yekan;
+    font-size: var(--font_size);
+    color: grey;
+    background-color: black;
+    line-height: 65px;
+    max-width: var(--maximum_width);
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
