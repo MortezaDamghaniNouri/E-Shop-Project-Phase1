@@ -9,14 +9,16 @@
 
 
 :root {
-    --font_size: 16;
+    --font_size: 16px;
     --maximum_width: 1280px;
-
+    --font_family: Yekan;
 
 
 
 }
 
+
+/* Header part starts here */
 header {
     width: 100%;
     position: fixed;
@@ -24,31 +26,16 @@ header {
     line-height: 65px;
     max-width: 1280px;
     background-color: white;
-    border-style: solid;
-    border-color: blue;
-
-
-
-}
-
-
-
-footer {
-
-
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-family: Yekan;
     font-size: var(--font_size);
-    color: grey;
-    background-color: black;
-    line-height: 65px;
-    max-width: var(--maximum_width);
+    font-family: var(--font_family);
+
 
 
 }
+
+
+
+
 
 .menu_button {
     display: inline-block;
@@ -71,19 +58,25 @@ footer {
 
 
 
+}
+
+#menu_button:hover {
+    background-color: yellow;
 
 
 }
-
 
 
 .menu_item {
 
     display: inline-block;
     text-align: center;
+    padding-left: 25px;
 
 
 }
+.menu_item:hover {color: rgb(48, 213, 200);}
+
 
 .menu_items {
     display: inline-block;
@@ -91,14 +84,36 @@ footer {
 
 
 
+}
+
+
+#shop_icon {
+    padding-right: 60px;
+    font-size: 120%;
+    color: rgb(48, 213, 200);
+
 
 }
 
 
+/* Header part ends here */
+/* Footer part starts here */
+footer {
 
 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+    color: grey;
+    background-color: black;
+    line-height: 65px;
+    max-width: var(--maximum_width);
 
 
+}
 
 
 
