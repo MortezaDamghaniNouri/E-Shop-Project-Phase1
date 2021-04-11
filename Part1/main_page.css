@@ -124,7 +124,7 @@ h1 {
     text-align: center;
     display: block;
     background-color: orangered;
-    height: 1000px;
+    height: 700px;
     max-width: var(--maximum_width);
 
 
@@ -141,13 +141,10 @@ h1 {
 
 }
 
-
-#search_bar {
-    display: block;
-    width: 400px;
+#search_bar_box {
+    display: inline-block;
     text-align: center;
-    background-color: white;
-    border-radius: 24px;
+    padding-top: 40px;
 
 
 
@@ -156,6 +153,42 @@ h1 {
 
 
 
+
+
+
+#search_bar {
+    display: block;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 24px;
+    line-height: 20px;
+
+
+}
+
+
+#search_button {
+
+
+    border-top: 35px;
+    color: black;
+    background-color: orange;
+    border-radius: 24px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+
+
+
+
+
+
+
+}
 
 
 
