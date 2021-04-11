@@ -23,6 +23,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    color: black;
     line-height: 65px;
     max-width: 1280px;
     background-color: white;
@@ -51,10 +52,12 @@ header {
     line-height: 10px;
     border-style: solid;
     border-color: yellow;
+    border-radius: 24px;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+
 
 
 
@@ -115,8 +118,41 @@ footer {
 
 }
 
+/* Body part starts here */
+
+h1 {
+    text-align: center;
+    display: block;
+    background-color: orangered;
+    height: 1000px;
+    max-width: var(--maximum_width);
 
 
+}
+
+#main_title {
+
+    color: white;
+    font-size: 32px;
+    text-align: center;
+
+
+
+
+}
+
+
+#search_bar {
+    display: block;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 24px;
+
+
+
+
+}
 
 
 
