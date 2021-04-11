@@ -18,15 +18,20 @@
 }
 
 header {
-    text-align: center;
+    width: 100%;
     position: fixed;
     top: 0;
-
-
+    line-height: 65px;
+    max-width: 1280px;
+    background-color: white;
+    border-style: solid;
+    border-color: blue;
 
 
 
 }
+
+
 
 footer {
 
@@ -41,6 +46,48 @@ footer {
     background-color: black;
     line-height: 65px;
     max-width: var(--maximum_width);
+
+
+}
+
+.menu_button {
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+
+
+}
+
+#menu_button {
+    display: inline-block;
+    text-align: center;
+    line-height: 10px;
+    border-style: solid;
+    border-color: yellow;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+
+
+}
+
+
+
+.menu_item {
+
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.menu_items {
+    display: inline-block;
+    width: 60%;
 
 
 
