@@ -124,7 +124,7 @@ h1 {
     text-align: center;
     display: block;
     background-color: orangered;
-    height: 700px;
+    height: 650px;
     max-width: var(--maximum_width);
 
 
@@ -184,13 +184,17 @@ h1 {
 
 
 
+}
+
+#arrangement_bar {
+
+
+
 
 
 
 
 }
-
-
 
 
 
