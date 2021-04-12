@@ -201,6 +201,10 @@ footer {
     background-color: #e2e2e2;
     max-width: var(--maximum_width);
     height: 1280px;
+    display: block;
+
+
+
 
 
 }
@@ -262,7 +266,8 @@ footer {
     font-family: var(--font_family);
     font-size: var(--font_size);
     box-shadow: 5px 5px 5px 5px grey;
-    overflow: scroll;
+
+    display: inline-block;
 
 }
 
@@ -285,11 +290,25 @@ footer {
 
 
 
+
 }
+
 
 input[type="checkbox"] {
     filter:  hue-rotate(200grad) brightness(1);
 }
 
+.product_box {
+    display: inline-block;
+    background-color: white;
+    width: 25%;
+    height: 375px;
+    margin-right: 15px;
 
+
+
+
+
+
+}
 
