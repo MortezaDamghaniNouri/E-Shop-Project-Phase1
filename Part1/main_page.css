@@ -189,12 +189,19 @@ footer {
 
 
 }
+#clock_image {
+
+    max-width: var(--maximum_width);
+
+
+}
 
 /* Second section starts here */
 #second_section {
     background-color: #e2e2e2;
     max-width: var(--maximum_width);
     height: 1280px;
+
 
 }
 
@@ -244,15 +251,45 @@ footer {
     display: inline;
 
 
+}
+
+#categorizations_block {
+    background-color: white;
+    width: 25%;
+    height: 355px;
+    margin-right: 20px;
+    color: black;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+    box-shadow: 5px 5px 5px 5px grey;
+    overflow: scroll;
+
+}
+
+#categorization_title {
+    display: inline-block;
+    margin-right: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 
 
 }
 
+.categorization_checkbox {
+    display: inline-block;
+    margin-right: 17px;
+    margin-left: 10px;
 
 
 
 
 
+}
+
+input[type="checkbox"] {
+    filter:  hue-rotate(200grad) brightness(1);
+}
 
 
 
