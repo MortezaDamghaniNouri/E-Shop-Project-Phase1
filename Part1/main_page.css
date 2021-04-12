@@ -120,11 +120,11 @@ footer {
 
 /* Body part starts here */
 
-h1 {
+#first_section {
     text-align: center;
     display: block;
     background-color: orangered;
-    height: 650px;
+    height: 500px;
     max-width: var(--maximum_width);
 
 
@@ -154,8 +154,6 @@ h1 {
 
 
 
-
-
 #search_bar {
     display: block;
     width: 400px;
@@ -171,7 +169,7 @@ h1 {
 #search_button {
 
 
-    border-top: 35px;
+    margin-top: 35px;
     color: black;
     background-color: orange;
     border-radius: 24px;
@@ -185,19 +183,70 @@ h1 {
 
 
 }
+#search_button:hover {
+
+    box-shadow: 5px 5px 5px 5px yellow;
+
+
+}
+
+/* Second section starts here */
+#second_section {
+    background-color: #e2e2e2;
+    max-width: var(--maximum_width);
+    height: 1280px;
+
+}
 
 #arrangement_bar {
+    display: inline-block;
+    width: 97%;
+    background-color: white;
+    color: black;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+    line-height: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 
+}
+#arrangement_title {
+    display: inline-block;
+    margin-right: 30px;
 
+
+}
+
+.arrangement_button {
+
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 15px;
+    border-radius: 24px;
+
+}
+
+.arrangement_button:hover {
+    background-color: blue;
+    color: white;
+
+
+}
+
+.button_form {
+    display: inline;
 
 
 
 
 }
-
-
-
 
 
 
