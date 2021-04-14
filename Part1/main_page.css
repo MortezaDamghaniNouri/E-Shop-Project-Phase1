@@ -266,7 +266,6 @@ footer {
     font-family: var(--font_family);
     font-size: var(--font_size);
     box-shadow: 5px 5px 5px 5px grey;
-
     display: inline-block;
 
 }
@@ -287,16 +286,32 @@ footer {
     margin-left: 10px;
 
 
-
-
-
-
 }
 
 
 input[type="checkbox"] {
     filter:  hue-rotate(200grad) brightness(1);
+
 }
+
+input[type=checkbox]:checked + label{
+
+    font-weight: bolder;
+    color: #39ff14;
+
+}
+
+#checkbox_fieldset {
+
+    display: block;
+    border: none;
+    height: 330px;
+    overflow: scroll;
+
+
+}
+
+
 
 .product_box {
     display: inline-block;
