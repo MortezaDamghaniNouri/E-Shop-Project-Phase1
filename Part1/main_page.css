@@ -57,6 +57,7 @@ header {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: white;
 
 
 
@@ -74,7 +75,7 @@ header {
 
     display: inline-block;
     text-align: center;
-    padding-left: 25px;
+    padding-left: 5%;
 
 
 }
@@ -316,6 +317,22 @@ input[type=checkbox]:checked + label{
 
 }
 
+#range_slider {
+    display: block;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+
+
+
+}
+
+
+
+
+
+
 
 /* Product boxes design */
 .products_container {
@@ -348,6 +365,11 @@ input[type=checkbox]:checked + label{
 
 
 }
+
+
+
+
+
 
 
 
