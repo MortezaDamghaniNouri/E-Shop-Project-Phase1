@@ -20,7 +20,7 @@
 
 /* Header part starts here */
 header {
-    width: 100%;
+    width: 80%;
     position: fixed;
     top: 0;
     color: black;
@@ -29,8 +29,9 @@ header {
     background-color: white;
     font-size: var(--font_size);
     font-family: var(--font_family);
-
-
+    display: block;
+    margin-right: 15%;
+    margin-left: 5%;
 
 }
 
@@ -127,6 +128,9 @@ footer {
     background-color: orangered;
     height: 500px;
     max-width: var(--maximum_width);
+    margin-right: 15%;
+    margin-left: 5%;
+    width: 80%;
 
 
 }
