@@ -11,7 +11,7 @@
 
 :root {
     --font_size: 16px;
-    --maximum_width: 1280px;
+    --maximum_width: 100%;
     --font_family: Yekan;
 
 
@@ -26,7 +26,7 @@ header {
     top: 0;
     color: black;
     line-height: 65px;
-    max-width: 1280px;
+    max-width: var(--maximum_width);
     background-color: white;
     font-size: var(--font_size);
     font-family: var(--font_family);
