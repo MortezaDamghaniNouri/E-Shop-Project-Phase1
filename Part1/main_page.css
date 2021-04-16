@@ -30,8 +30,8 @@ header {
     font-size: var(--font_size);
     font-family: var(--font_family);
     display: block;
-    margin-right: 15%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
 
 }
 
@@ -128,8 +128,8 @@ footer {
     background-color: orangered;
     height: 500px;
     max-width: var(--maximum_width);
-    margin-right: 15%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     width: 80%;
 
 
