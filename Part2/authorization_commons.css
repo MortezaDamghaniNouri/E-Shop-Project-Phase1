@@ -1,1 +1,25 @@
 @import "commons.css";
+
+.authorization_button { /*class*/
+    display: block;
+    border-radius: 24px;
+    color: yellow;
+    margin-right: 15%;
+    margin-left: 15px;
+    width: 50%;
+}
+
+.login_forms {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+}
+
+.text_input {
+    display: block;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    border-radius: 24px;
+    line-height: 20px;
+}
