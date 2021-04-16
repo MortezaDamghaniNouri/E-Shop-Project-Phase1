@@ -44,3 +44,13 @@
     height: 100%;
     display:inline;
 }
+
+.authorization_title{
+    text-align: center;
+    display: block;
+    color: #00e2e2;
+    line-height: 70px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display:inline;
+}
