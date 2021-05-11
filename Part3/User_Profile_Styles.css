@@ -125,11 +125,9 @@ body {
 
 
 #user_profile {
-
-    background-color: yellowgreen;
     display: block;
     width: 60%;
-    height: 60%;
+    height: 50%;
     margin-left: 20%;
     margin-right: 20%;
     flex-wrap: wrap;
@@ -137,6 +135,7 @@ body {
     font-family: var(--font_family);
     font-size: var(--font_size);
     justify-content: center;
+
 
 
 
@@ -163,6 +162,7 @@ body {
 #welcome_message {
     display: block;
     font-weight: bold;
+    font-size: 20px;
 
 
 
@@ -268,6 +268,8 @@ body {
     margin-right: 42.5%;
     background-color: orange;
     border-radius: 24px;
+    margin-top: 5%;
+
 
 
 
