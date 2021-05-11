@@ -1,24 +1,3 @@
-@import "authorization_commons.css";
-/* It is used to remove the initial white spaces which browsers use */
-* {
-    margin: 0px;
-    padding: 0px;
-
-
-}
-
-
-
-:root {
-    --font_size: 16px;
-    --maximum_width: 1280px;
-    --font_family: Yekan;
-
-
-
-}
-
-
 /* Header part starts here */
 header {
     width: 100%;
@@ -157,85 +136,36 @@ footer {
 
 }
 
-
 body {
     display: flex;
-    align-items: center;
     background-color: #e2e2e2;
-
-
-}
-
-
-#user_profile {
-    display: block;
-    width: 60%;
-    height: 50%;
-    margin-left: 20%;
-    margin-right: 20%;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    font-family: var(--font_family);
-    font-size: var(--font_size);
-    justify-content: center;
-
-
-
-
-
-
 
 
 }
-
-#title {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
-
-}
-
-
 
 #welcome_message {
-    display: block;
+    margin-top: 70px;
+    display: flex;
     font-weight: bold;
     font-size: 20px;
-
-
-}
-
-#raise_deposit_button {
-    height: 7%;
-    width: 12%;
-    border-radius: 24px;
-    background-color: orange;
-    display: block;
-    font-family: var(--font_family);
-
-
-
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: center;
 
 }
-
-#user_deposit {
-    margin-right: 2%;
-    margin-left: 2%;
-
-
-
-
-
-}
-
 
 #tabs {
     display: flex;
     width: 100%;
     justify-content: center;
-    height: 7%;
-
+    height: 3.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
 
 
 }
@@ -244,7 +174,7 @@ body {
     width: 15%;
     border-bottom-right-radius: 24px;
     border-top-right-radius: 24px;
-    background-color: grey;
+    background-color: #e2e2e2;
     font-size: var(--font_size);
     font-family: var(--font_family);
 
@@ -259,55 +189,65 @@ body {
     border-top-left-radius: 24px;
     font-size: var(--font_size);
     font-family: var(--font_family);
-    background-color: #e2e2e2;
-
-
-
+    background-color: grey;
 
 }
 
-.address_input {
+#bills_list {
     display: block;
-    width: 100%;
-    text-align: center;
     background-color: white;
-    line-height: 60px;
-    display:inline;
-    border: 0;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
-}
-
-#address_label {
-    display: block;
-    width: 120px;
-    line-height: 60px;
-    height: 100%;
-    text-align: center;
-    background-color: rgb(0, 192, 198);
-    color: white;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-
-}
-
-#edit_button {
-    width: 15%;
-    height: 10%;
-    font-family: var(--font_family);
+    height: 60%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    overflow: scroll;
+    margin-bottom: 70px;
     font-size: var(--font_size);
-    margin-left: 42.5%;
-    margin-right: 42.5%;
-    background-color: orange;
-    border-radius: 24px;
-    margin-top: 5%;
+    font-family: var(--font_family);
+    box-shadow: 3px 3px 3px 3px #9f9f9f;
+
+
+
+}
+
+.row {
+    display: flex;
+
+
+}
+
+.cell {
+    display: block;
+    margin-right: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 15%;
 
 
 
 
 
 }
+
+hr {
+    display: block;
+    margin-right: 1%;
+    margin-left: 1%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
