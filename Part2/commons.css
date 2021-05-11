@@ -26,10 +26,48 @@ header {
     top: 0;
     color: black;
     line-height: 65px;
-    max-width: var(--maximum_width);
+    max-width: 1280px;
     background-color: white;
     font-size: var(--font_size);
     font-family: var(--font_family);
+    display: flex;
+
+
+}
+.menu_button {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+#drop_down_menu {
+    display: block;
+    text-align: center;
+    line-height: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    padding-right: 1%;
+    padding-left: 1%;
+
+
+
+
+
+
+}
+
+#drop_down_menu:hover {
+    background-color: yellow;
+
+
 
 
 
@@ -38,17 +76,18 @@ header {
 
 
 
+.select_item {
+    background-color: grey;
+    font-size: var(--font_size);
+    display: block;
 
-.menu_button {
-    display: inline-block;
-    width: 35%;
-    text-align: left;
+
 
 
 }
 
 #menu_button {
-    display: inline-block;
+    display: block;
     text-align: center;
     line-height: 10px;
     border-style: solid;
@@ -59,6 +98,7 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
+
 
 
 
@@ -74,8 +114,8 @@ header {
 
 .menu_item {
 
-    display: inline-block;
-    text-align: center;
+    display: block;
+    justify-content: center;
     padding-left: 5%;
 
 
@@ -84,7 +124,7 @@ header {
 
 
 .menu_items {
-    display: inline-block;
+    display: flex;
     width: 60%;
 
 
@@ -99,7 +139,6 @@ header {
 
 
 }
-
 
 /* Header part ends here */
 /* Footer part starts here */
