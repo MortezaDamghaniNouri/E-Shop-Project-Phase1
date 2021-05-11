@@ -42,23 +42,19 @@
     line-height: 30px;
     height: 100%;
     text-align: center;
-    background-color: rgb(29, 180, 168);
+    background-color: rgb(0, 192, 198);
     color: white;
-
 }
 
 .empty_lables {
     display: block;
-    /* border-radius: 10px; */
     width: 10px;
     line-height: 30px;
     height: 30px;
-
 }
 
 .few_distance_lables {
     display: block;
-    /* border-radius: 10px; */
     width: 10px;
     line-height: 6px;
     height: 6px;
@@ -87,7 +83,7 @@
 .authorization_title{
     text-align: center;
     display: block;
-    color: rgb(48, 213, 200);
+    color: rgb(0, 192, 198);
     margin-bottom: 30px;
     margin-top: 100px;
     display:inline;
