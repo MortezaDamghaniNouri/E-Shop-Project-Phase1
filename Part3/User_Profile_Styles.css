@@ -30,14 +30,15 @@ header {
     background-color: white;
     font-size: var(--font_size);
     font-family: var(--font_family);
-    display: block;
+    display: flex;
 
 
 }
 .menu_button {
-    display: inline-block;
+    display: flex;
     width: 35%;
-    text-align: left;
+    align-items: center;
+    justify-content: flex-end;
 
 
 }
@@ -69,8 +70,8 @@ header {
 
 .menu_item {
 
-    display: inline-block;
-    text-align: center;
+    display: block;
+    justify-content: center;
     padding-left: 5%;
 
 
@@ -79,7 +80,7 @@ header {
 
 
 .menu_items {
-    display: inline-block;
+    display: flex;
     width: 60%;
 
 
