@@ -20,7 +20,7 @@
 
 /* Header part starts here */
 header {
-    width: 80%;
+    width: 100%;
     position: fixed;
     top: 0;
     color: black;
@@ -30,8 +30,7 @@ header {
     font-size: var(--font_size);
     font-family: var(--font_family);
     display: block;
-    margin-right: 10%;
-    margin-left: 10%;
+
 
 }
 
@@ -128,9 +127,7 @@ footer {
     background-color: orangered;
     height: 500px;
     max-width: var(--maximum_width);
-    margin-right: 10%;
-    margin-left: 10%;
-    width: 80%;
+    width: 100%;
 
 
 }
@@ -197,6 +194,7 @@ footer {
 #clock_image {
 
     max-width: var(--maximum_width);
+
 
 
 }
