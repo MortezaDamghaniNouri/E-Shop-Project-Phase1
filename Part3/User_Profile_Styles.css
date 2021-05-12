@@ -34,44 +34,6 @@ header {
 
 
 }
-.menu_button {
-    display: flex;
-    width: 35%;
-    align-items: center;
-    justify-content: flex-end;
-
-
-}
-
-#drop_down_menu {
-    display: block;
-    text-align: center;
-    line-height: 10px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: yellow;
-    border-radius: 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: white;
-    padding-right: 1%;
-    padding-left: 1%;
-
-
-
-
-
-
-}
-
-#drop_down_menu:hover {
-    background-color: yellow;
-
-
-
-
-
-}
 
 
 
@@ -303,13 +265,79 @@ body {
     border-radius: 24px;
     margin-top: 5%;
 
+}
 
+
+
+/* Drop down menu implementation */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 112px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 
 
 }
 
+/* Links inside the dropdown */
+.dd_content {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: right;
+}
 
+/* Change color of dropdown links on hover */
+.dd_content:hover {background-color: silver;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropbtn {
+    display: block;
+    text-align: center;
+    line-height: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 25%;
+    font-size: var(--font_size);
+    margin-top: 16px;
+
+}
+
+.dropbtn:hover {
+    background-color: yellow;
+
+}
+
+
+#last_content {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+}
 
 
 
