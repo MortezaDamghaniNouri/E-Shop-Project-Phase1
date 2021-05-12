@@ -1,0 +1,161 @@
+/* start commons 
+    we should make it in one file later + it's content*/
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+
+:root {
+    --font_size: 16px;
+    --maximum_width: 1280px;
+    --font_family: Yekan;
+
+
+
+}
+
+
+/* Header part starts here */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: black;
+    line-height: 65px;
+    max-width: 1280px;
+    background-color: white;
+    font-size: var(--font_size);
+    font-family: var(--font_family);
+    display: flex;
+
+
+}
+.menu_button {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+#drop_down_menu {
+    display: block;
+    text-align: center;
+    line-height: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    padding-right: 1%;
+    padding-left: 1%;
+
+
+
+
+
+
+}
+
+#drop_down_menu:hover {
+    background-color: yellow;
+
+
+
+
+
+}
+
+
+
+
+.select_item {
+    background-color: grey;
+    font-size: var(--font_size);
+    display: block;
+
+
+
+
+}
+
+#menu_button {
+    display: block;
+    text-align: center;
+    line-height: 10px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+
+
+
+
+
+}
+
+#menu_button:hover {
+    background-color: yellow;
+
+
+}
+
+
+.menu_item {
+
+    display: block;
+    justify-content: center;
+    padding-left: 5%;
+
+
+}
+.menu_item:hover {color: rgb(48, 213, 200);}
+
+
+.menu_items {
+    display: flex;
+    width: 60%;
+
+
+
+}
+
+
+#shop_icon {
+    padding-right: 60px;
+    font-size: 120%;
+    color: rgb(48, 213, 200);
+
+
+}
+
+/* Header part ends here */
+/* Footer part starts here */
+footer {
+
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+    color: grey;
+    background-color: black;
+    line-height: 65px;
+    max-width: var(--maximum_width);
+
+
+}
+/* end commons */

@@ -1,0 +1,87 @@
+@import "profile_commons.css";
+
+#tabscontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 30px 0 30px 0;
+    padding: 0;
+    max-width: 655px;
+  }
+
+  #tabscontainer * {font-family: Yekan;}
+
+  #tabscontainer > [name="radiogroupfortabs"] {
+    position: absolute; 
+    visibility: hidden; 
+  }
+
+  #tabscontainer > #radiofortab1{-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1;}
+  #tabscontainer > #radiofortab2{-webkit-box-ordinal-group:3;-webkit-order:2;-ms-flex-order:2;order:2;}
+  #tabscontainer > #radiofortab3{-webkit-box-ordinal-group:4;-webkit-order:3;-ms-flex-order:3;order:3;}
+
+  #tabscontainer > [id^="tab-label"] {
+    position: relative;
+    top: 0px;
+    max-height: 18px;  
+    margin: 4px 2px 0 0;
+    display: inline-block;  
+    padding: 12px 21px;
+    border-radius: 5px 5px 0 0;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #B0B0B0;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  #tabscontainer > [id^="tab-label"]:hover {
+    background: #969696;  
+  }
+
+  #tabscontainer > [id^="tab-content"] {
+      -webkit-box-ordinal-group: 999;
+      -webkit-order: 999;
+      -ms-flex-order: 999;
+      order: 999; /* Set to a high value - just has to be at least one more than the number of tabs */
+      display: none;    
+      z-index: 2;
+      top: 48px;
+      width: 100%;
+      min-height: 5em;
+      overflow: hidden;    
+      font-size: 14px;
+      border-width: 1px;
+      border-style: solid;
+      padding: 10px 25px 25px 25px;
+      background: #c9c9c9;
+      margin-top: -1px;
+      border-radius: 0 5px 5px 5px;
+  }
+
+  #tabscontainer > [name="radiogroupfortabs"]:checked + [id^="tab-label"] {
+    z-index: 4;
+    margin-top: 0px;
+    padding-top: 16px;
+    background: #c9c9c9;
+    border-color: #000 #000 #c9c9c9 #000;
+  }
+  /* Display the content DIV that corresponds to the selected tab (because of the limitations of CSS selectors, this could not be done with a single rule.  A unique rule has to be created for each tab/tab content within the tab set.) */
+  #tabscontainer > #radiofortab1:checked ~ #tab-content1{display: block;}
+  #tabscontainer > #radiofortab2:checked ~ #tab-content2{display: block;}
+  #tabscontainer > #radiofortab3:checked ~ #tab-content3{display: block;}
