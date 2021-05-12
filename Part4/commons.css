@@ -43,6 +43,15 @@ header {
 
 }
 
+body {
+    display: flex;
+    background-color: #e2e2e2;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 #drop_down_menu {
     display: block;
     text-align: center;
