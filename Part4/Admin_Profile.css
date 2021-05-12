@@ -69,22 +69,15 @@
     background: #969696;  
 }
 
-[id^="tab-content"] {
-    order: 999; /* Set to a high value - just has to be at least one more than the number of tabs */
+.tab_content {
+    order: 999;
     display: none;    
-    z-index: 2;
+    z-index: 3;
     top: 48px;
     width: 100%;
     min-height: 5em;
     overflow: hidden;    
-    font-size: 14px;
-    border-width: 1px;
-    border-style: solid;
     padding: 10px 25px 25px 25px;
-    background: #c9c9c9;
-    margin-top: -1px;
-    border-radius: 0 5px 5px 5px;
-    margin-top: 70px;
 }
 
 [name="radiogroupfortabs"]:checked + [id^="tab_label"] {
@@ -98,4 +91,4 @@
 
 #commodity_radio:checked ~ #tab-content1{display: block;}
 #category_radio:checked ~ #tab-content2{display: block;}
-#bills_radio:checked ~ #tab-content3{display: block;}
+#bills_radio:checked ~ #bills_list{display: block;}
