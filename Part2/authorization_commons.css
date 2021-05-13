@@ -63,14 +63,25 @@
 
 }
 
+.vertical_center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
 .authorization_div{
     background-color: #e2e2e2;
     text-align: center;
     height: 100%;
     max-width: var(--maximum_width);
     width: 100%;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .authorization_table{
