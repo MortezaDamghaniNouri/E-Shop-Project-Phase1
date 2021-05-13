@@ -125,6 +125,90 @@ header {
 
 
 }
+/* Drop down menu implementation */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 7%;
+    text-align: center;
+    margin-right: 28%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 112px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1; /* Showing the button over the drop down menu*/
+
+
+
+
+}
+
+/* Contents inside the dropdown */
+.dd_content {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: right;
+}
+
+/* Changing the  color of dropdown content on hover */
+.dd_content:hover {
+    background-color: silver;
+}
+
+/* Showing the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+
+
+
+
+}
+.dropdown:hover .dropbtn {
+    position: relative;
+    background-color: yellow;
+    top: 14px;
+
+}
+
+
+.dropbtn {
+    display: block;
+    text-align: center;
+    line-height: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow;
+    border-radius: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 124%;
+    font-size: var(--font_size);
+    margin-top: 16px;
+    z-index: 2; /* Showing the button over the drop down menu*/
+
+}
+
+.dropbtn:hover {
+    background-color: yellow;
+
+}
+
+
+
+
 
 /* Header part ends here */
 /* Footer part starts here */
