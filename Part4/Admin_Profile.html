@@ -45,7 +45,25 @@
         <input type="radio" name="radiogroupfortabs" id="bills_radio"/>
         <label id="tab_label_bills" for="bills_radio">رسید ها</label>        
 
-        <div id="tab-content1"  class="tab_content">
+        <form id="form_tab" action="" class="search_form">
+            <table class="authorization_table">
+                <tr>
+                    <td>
+                        <label class="search_lables">جست و جوی کد پیگیری</label>
+                    </td>
+                    <td>
+                        <input type="search" class="search_input" placeholder=" کد پیگیری خود را برای جستجو وارد کنید ...">
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="2">
+                        <label class="empty_lables"> </label>
+                    </th>
+                </tr>
+            </table>
+        </form>
+
+        <div id="tab-content1" class="tab_content">
             <p>tab1</p>
         </div>  
 
@@ -116,6 +134,8 @@
         </div>
 
         <div id="bills_list" class="tab_content">
+            <hr />
+
             <div class="row" id="titles">
                 <div class="cell">کد پیگیری</div>
                 <div class="cell">کالا</div>
