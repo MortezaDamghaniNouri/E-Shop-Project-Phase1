@@ -8,12 +8,10 @@
 }
 
 
-
 :root {
     --font_size: 16px;
     --maximum_width: 1280px;
     --font_family: Yekan;
-
 
 
 }
@@ -36,14 +34,10 @@ header {
 }
 
 
-
-
 .select_item {
     background-color: grey;
     font-size: var(--font_size);
     display: block;
-
-
 
 
 }
@@ -80,13 +74,15 @@ header {
 
 
 }
-.menu_item:hover {color: rgb(48, 213, 200);}
+
+.menu_item:hover {
+    color: rgb(48, 213, 200);
+}
 
 
 .menu_items {
     display: flex;
     width: 60%;
-
 
 
 }
@@ -127,7 +123,6 @@ body {
     justify-content: center;
 
 
-
 }
 
 
@@ -144,12 +139,6 @@ body {
     justify-content: center;
 
 
-
-
-
-
-
-
 }
 
 #title {
@@ -159,7 +148,6 @@ body {
 
 
 }
-
 
 
 #welcome_message {
@@ -179,16 +167,11 @@ body {
     font-family: var(--font_family);
 
 
-
-
 }
 
 #user_deposit {
     margin-right: 2%;
     margin-left: 2%;
-
-
-
 
 
 }
@@ -201,8 +184,8 @@ body {
     height: 7%;
 
 
-
 }
+
 #profile_button {
     height: 100%;
     width: 15%;
@@ -213,9 +196,8 @@ body {
     font-family: var(--font_family);
 
 
-
-
 }
+
 #bills_button {
     height: 100%;
     width: 15%;
@@ -226,8 +208,6 @@ body {
     background-color: #e2e2e2;
 
 
-
-
 }
 
 .address_input {
@@ -236,7 +216,6 @@ body {
     text-align: center;
     background-color: white;
     line-height: 60px;
-    display:inline;
     border: 0;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -270,14 +249,14 @@ body {
 }
 
 
-
 /* Drop down menu implementation */
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 35%;
+    width: 7%;
     text-align: center;
+    margin-right: 28%;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -288,6 +267,8 @@ body {
     min-width: 112px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    z-index: 1; /* Showing the button over the drop down menu*/
+
 
 
 
@@ -303,11 +284,27 @@ body {
     text-align: right;
 }
 
-/* Change color of dropdown links on hover */
-.dd_content:hover {background-color: silver;}
+/* Changing the  color of dropdown content on hover */
+.dd_content:hover {
+    background-color: silver;
+}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+/* Showing the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+
+
+
+
+}
+.dropdown:hover .dropbtn {
+    position: relative;
+    background-color: yellow;
+    top: 14px;
+
+}
+
+
 
 .dropbtn {
     display: block;
@@ -322,9 +319,10 @@ body {
     background-color: white;
     padding-right: 20px;
     padding-left: 20px;
-    width: 25%;
+    width: 124%;
     font-size: var(--font_size);
     margin-top: 16px;
+    z-index: 2; /* Showing the button over the drop down menu*/
 
 }
 

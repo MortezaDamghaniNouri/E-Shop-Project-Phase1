@@ -4,8 +4,8 @@
     --font_family: Yekan;
 
 
-
 }
+
 /* Header part starts here */
 header {
     width: 100%;
@@ -21,6 +21,7 @@ header {
 
 
 }
+
 .menu_button {
     display: flex;
     width: 35%;
@@ -45,30 +46,19 @@ header {
     padding-left: 1%;
 
 
-
-
-
-
 }
 
 #drop_down_menu:hover {
     background-color: yellow;
 
 
-
-
-
 }
-
-
 
 
 .select_item {
     background-color: grey;
     font-size: var(--font_size);
     display: block;
-
-
 
 
 }
@@ -105,13 +95,15 @@ header {
 
 
 }
-.menu_item:hover {color: rgb(48, 213, 200);}
+
+.menu_item:hover {
+    color: rgb(48, 213, 200);
+}
 
 
 .menu_items {
     display: flex;
     width: 60%;
-
 
 
 }
@@ -167,7 +159,6 @@ body {
     width: 90%;
 
 
-
 }
 
 
@@ -193,6 +184,7 @@ body {
 
 
 }
+
 #profile_button {
     height: 100%;
     width: 15%;
@@ -203,9 +195,8 @@ body {
     font-family: var(--font_family);
 
 
-
-
 }
+
 #bills_button {
     height: 100%;
     width: 15%;
@@ -231,7 +222,6 @@ body {
     box-shadow: 3px 3px 3px 3px #9f9f9f;
 
 
-
 }
 
 .row {
@@ -249,16 +239,12 @@ body {
     width: 20%;
 
 
-
-
-
 }
 
 hr {
     display: block;
     margin-right: 1%;
     margin-left: 1%;
-
 
 
 }

@@ -7,12 +7,10 @@
 }
 
 
-
 :root {
     --font_size: 16px;
     --maximum_width: 1280px;
     --font_family: Yekan;
-
 
 
 }
@@ -32,6 +30,7 @@ header {
 
 
 }
+
 .menu_button {
     display: flex;
     width: 35%;
@@ -56,22 +55,13 @@ header {
     padding-left: 1%;
 
 
-
-
-
-
 }
 
 #drop_down_menu:hover {
     background-color: yellow;
 
 
-
-
-
 }
-
-
 
 
 .select_item {
@@ -80,17 +70,7 @@ header {
     display: block;
 
 
-
-
 }
-
-
-
-
-
-
-
-
 
 
 #menu_button {
@@ -105,9 +85,6 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
-
-
-
 
 
 }
@@ -127,13 +104,15 @@ header {
 
 
 }
-.menu_item:hover {color: rgb(48, 213, 200);}
+
+.menu_item:hover {
+    color: rgb(48, 213, 200);
+}
 
 
 .menu_items {
     display: flex;
     width: 60%;
-
 
 
 }
@@ -186,8 +165,6 @@ footer {
     text-align: center;
 
 
-
-
 }
 
 #search_bar_box {
@@ -196,11 +173,7 @@ footer {
     padding-top: 40px;
 
 
-
-
 }
-
-
 
 
 #search_bar {
@@ -230,18 +203,18 @@ footer {
     font-size: var(--font_size);
 
 
-
 }
+
 #search_button:hover {
 
     box-shadow: 5px 5px 5px 5px yellow;
 
 
 }
+
 #clock_image {
 
     max-width: var(--maximum_width);
-
 
 
 }
@@ -256,9 +229,6 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     align-content: start;
-
-
-
 
 
 }
@@ -279,6 +249,7 @@ footer {
 
 
 }
+
 #arrangement_title {
     display: inline-block;
     margin-right: 30px;
@@ -331,8 +302,6 @@ footer {
     margin-bottom: 10px;
 
 
-
-
 }
 
 .categorization_checkbox {
@@ -345,11 +314,11 @@ footer {
 
 /* Check box choices styles */
 input[type="checkbox"] {
-    filter:  hue-rotate(200grad) brightness(1);
+    filter: hue-rotate(200grad) brightness(1);
 
 }
 
-input[type=checkbox]:checked + label{
+input[type=checkbox]:checked + label {
 
     font-weight: bolder;
     color: #39ff14;
@@ -373,14 +342,7 @@ input[type=checkbox]:checked + label{
     margin-left: 5%;
 
 
-
-
 }
-
-
-
-
-
 
 
 /* Product boxes design */
@@ -403,7 +365,6 @@ input[type=checkbox]:checked + label{
     width: 100%;
 
 
-
 }
 
 #right_side_block {
@@ -412,8 +373,8 @@ input[type=checkbox]:checked + label{
     height: 700px;
 
 
-
 }
+
 #price_adjuster_block {
     display: block;
     background-color: white;
@@ -424,7 +385,6 @@ input[type=checkbox]:checked + label{
     margin-right: 20px;
     margin-top: 18px;
     box-shadow: 3px 3px 3px 3px #9f9f9f;
-
 
 
 }
@@ -448,7 +408,6 @@ input[type=checkbox]:checked + label{
     box-shadow: 3px 3px 3px 3px #9f9f9f;
 
 
-
 }
 
 
@@ -458,9 +417,6 @@ input[type=checkbox]:checked + label{
     margin-right: 5%;
     margin-left: 5%;
     width: 90%;
-
-
-
 
 
 }
@@ -473,13 +429,11 @@ input[type=checkbox]:checked + label{
 }
 
 
-
 .product_category {
     display: block;
     margin-right: 17px;
     color: darkgray;
     font-size: 14px;
-
 
 
 }
@@ -492,15 +446,12 @@ input[type=checkbox]:checked + label{
 }
 
 
-
 .product_price {
     display: block;
     margin-right: 17px;
 
 
-
 }
-
 
 
 .product_buy_button {
