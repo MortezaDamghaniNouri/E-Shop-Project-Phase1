@@ -1,4 +1,5 @@
 @import "profile_commons.css";
+@import "authorization_commons.css";
 
 #tabscontainer {
     display: flex;
@@ -91,6 +92,7 @@
     min-height: 5em;
     overflow: hidden;    
     padding: 10px 25px 25px 25px;
+    margin-top: 5%;
 }
 
 [name="radiogroupfortabs"]:checked + [id^="tab_label"] {
