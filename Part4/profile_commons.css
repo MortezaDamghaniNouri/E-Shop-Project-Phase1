@@ -35,3 +35,15 @@
 
 
 }
+
+#welcome_message {
+    margin-top: 70px;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: center;
+
+}
