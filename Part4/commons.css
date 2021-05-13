@@ -168,3 +168,13 @@ footer {
 
 }
 /* end commons */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
