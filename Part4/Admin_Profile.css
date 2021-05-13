@@ -3,7 +3,6 @@
 #tabscontainer {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 70px;
     margin-right: 5%;
     margin-left: 5%;
     text-align: center;
