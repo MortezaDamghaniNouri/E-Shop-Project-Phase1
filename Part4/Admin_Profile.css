@@ -18,9 +18,9 @@
     visibility: hidden; 
 }
 
-#commodity_radio{-webkit-box-ordinal-group:2;-webkit-order:1;-ms-flex-order:1;order:1;}
-#category_radio{-webkit-box-ordinal-group:3;-webkit-order:2;-ms-flex-order:2;order:2;}
-#bills_radio{-webkit-box-ordinal-group:4;-webkit-order:3;-ms-flex-order:3;order:3;}
+#commodity_radio{-webkit-box-ordinal-group:1;order:1;}
+#category_radio{-webkit-box-ordinal-group:2;order:2;}
+#bills_radio{-webkit-box-ordinal-group:3;order:3;}
 
 #tab_label_commodity {
     align-items: center;
@@ -48,6 +48,20 @@
     margin-top: 70px;
     text-align: center;
     justify-content: center;
+}
+
+#category_list {
+    background-color: white;
+    height: 60%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    overflow: scroll;
+    margin-bottom: 70px;
+    font-size: var(--font_size);
+    font-family: var(--font_family);
+    box-shadow: 3px 3px 3px 3px #9f9f9f;
+
 }
 
 #tab_label_bills {
@@ -90,5 +104,5 @@
 }
 
 #commodity_radio:checked ~ #tab-content1{display: block;}
-#category_radio:checked ~ #tab-content2{display: block;}
+#category_radio:checked ~ #category_list{display: block;}
 #bills_radio:checked ~ #bills_list{display: block;}
