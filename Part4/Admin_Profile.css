@@ -1,10 +1,18 @@
 @import "profile_commons.css";
 @import "authorization_commons.css";
 
+.button_checked {
+    background-color: grey;
+
+}
+
+.button_unchecked {
+    background-color: #e2e2e2;
+}
+
 #profile_category {
     height: 100%;
     width: 15%;
-    background-color: #e2e2e2;
     font-size: var(--font_size);
     font-family: var(--font_family);
 
@@ -15,7 +23,6 @@
     width: 15%;
     border-bottom-right-radius: 24px;
     border-top-right-radius: 24px;
-    background-color: #e2e2e2;
     font-size: var(--font_size);
     font-family: var(--font_family);
 
