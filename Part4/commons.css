@@ -275,8 +275,8 @@ footer {
     margin-right: 15px;
     background-color: white;
     margin-bottom: 15px;
-    max-width: 31.5%;
-    width: 31.5%;
+    max-width: 25%;
+    width: 20%;
     /* height: 420px; */
     color: black;
     font-family: var(--font_family);
@@ -288,11 +288,12 @@ footer {
 
 
 .product_image {
-    display: block;
-    height: 200px;
+    display: inherit;
+    height: 50%;
+    max-height: 100px;
     margin-right: 5%;
     margin-left: 5%;
-    width: 90%;
+    width: 80%;
 
 
 }

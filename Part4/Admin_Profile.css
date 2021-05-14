@@ -77,7 +77,7 @@
 
 #category_list {
     background-color: white;
-    height: 60%;
+    height: 70%;
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
@@ -85,11 +85,13 @@
     font-size: var(--font_size);
     font-family: var(--font_family);
     box-shadow: 3px 3px 3px 3px #9f9f9f;
+    margin-top: 2%;
+
 
 }
 
 #commodity_tab {
-    height: 60%;
+    height: 40%;
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
@@ -124,6 +126,7 @@
 .min_with_150px{
     min-width: 150px;
     min-height: 40px;
+
 }
 
 .tab_content {
@@ -131,10 +134,31 @@
     top: 10%;
     width: 100%;
     padding: 10px 25px 25px 25px;
-    margin-top: 5%;
+    margin-top: 1%;
     text-align: center;
     max-width: var(--maximum_width);
     align-items: center;
     justify-content: center;
     display: block;
 }
+
+.small_cell {
+    width: 5%;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
