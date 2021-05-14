@@ -257,12 +257,27 @@ footer {
 }
 
 
+.products_container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #e2e2e2;
+    width: 73%;
+    height: 860px;
+    color: black;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+
+
+}
+
 .product_box {
     margin-right: 15px;
     background-color: white;
     margin-bottom: 15px;
-    width: 31.5%;
-    height: 420px;
+    max-width: 25%;
+    width: 20%;
+    /* height: 420px; */
     color: black;
     font-family: var(--font_family);
     font-size: var(--font_size);
@@ -273,11 +288,12 @@ footer {
 
 
 .product_image {
-    display: block;
-    height: 200px;
+    display: inherit;
+    height: 50%;
+    max-height: 100px;
     margin-right: 5%;
     margin-left: 5%;
-    width: 90%;
+    width: 80%;
 
 
 }
