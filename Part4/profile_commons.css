@@ -1,6 +1,41 @@
 @import "commons.css";
 
+#welcome_message {
+    margin-top: 70px;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: center;
+
+}
+
+#tabs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 3.5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+
+}
+
+#bills_button {
+    height: 100%;
+    width: 15%;
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+    font-size: var(--font_size);
+    font-family: var(--font_family);
+    background-color: grey;
+
+}
+
 #bills_list {
+    display: block;
     background-color: white;
     height: 60%;
     width: 90%;
@@ -13,7 +48,6 @@
     box-shadow: 3px 3px 3px 3px #9f9f9f;
 
 
-
 }
 
 .row {
@@ -24,26 +58,32 @@
 
 .cell {
     display: block;
-    margin-right: 5%;
+    margin-right: 3%;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    width: 15%;
-
-
-
+    width: 20%;
 
 
 }
 
-#welcome_message {
-    /* margin-top: 70px; */
+hr {
+    display: block;
+    margin-right: 1%;
+    margin-left: 1%;
+
+
+}
+
+#main_div {
     display: flex;
-    font-weight: bold;
-    font-size: 20px;
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #e2e2e2;
+    max-width: var(--maximum_width);
+    width: 90%;
+
 
 }

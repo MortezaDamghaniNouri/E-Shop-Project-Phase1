@@ -1,16 +1,24 @@
 @import "profile_commons.css";
 @import "authorization_commons.css";
 
-#tabscontainer {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 5%;
-    margin-left: 5%;
-    text-align: center;
-    width: 90%;
-    max-width: var(--maximum_width);
-    align-items: center;
-    justify-content: center;
+#profile_category {
+    height: 100%;
+    width: 15%;
+    background-color: #e2e2e2;
+    font-size: var(--font_size);
+    font-family: var(--font_family);
+
+}
+
+#profile_commodity {
+    height: 100%;
+    width: 15%;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    background-color: #e2e2e2;
+    font-size: var(--font_size);
+    font-family: var(--font_family);
+
 }
 
 [name="radiogroupfortabs"] {
@@ -59,15 +67,9 @@
 .category_button:hover {color: rgb(48, 213, 200);}
 
 #form_tab {
-    order: 999;
-    display: none;    
-    z-index: 3;
     top: 18px;
     width: 100%;
-    min-height: 5em;
-    overflow: hidden;    
-    margin-top: 2%;
-    margin-bottom: -3%;
+    display: block;
 }
 
 #commodity_radio{-webkit-box-ordinal-group:1;order:1;}
@@ -78,7 +80,8 @@
     align-items: center;
     display: block;
     height: 30px;
-    width: 15%;
+    width: 100%;
+    min-width: 50px;
     border-bottom-right-radius: 24px;
     border-top-right-radius: 24px;
     font-size: var(--font_size);
@@ -93,7 +96,8 @@
     align-items: center;
     display: block;
     height: 30px;
-    width: 15%;
+    width: 100%;
+    min-width: 50px;
     font-size: var(--font_size);
     font-family: var(--font_family);
     transition: all 0.2s ease-in-out;
@@ -165,7 +169,8 @@
     align-items: center;
     display: block;
     height: 30px;
-    width: 15%;
+    width: 100%;
+    min-width: 50px;
     text-align: center;
     border-bottom-left-radius: 24px;
     border-top-left-radius: 24px;
@@ -181,14 +186,16 @@
 }
 
 .tab_content {
-    order: 999;
-    display: none;    
     z-index: 3;
     top: 10%;
     width: 100%;
-    overflow: hidden;    
     padding: 10px 25px 25px 25px;
     margin-top: 5%;
+    text-align: center;
+    max-width: var(--maximum_width);
+    align-items: center;
+    justify-content: center;
+    display: block;
 }
 
 [name="radiogroupfortabs"]:checked + [id^="tab_label"] {
