@@ -49,6 +49,16 @@
     width: 100%;
 }
 
+.category_button{
+    border: none;
+    background-color: white;
+    font-size: var(--font_size);
+    font-family: var(--font_family);
+    /* text-align: r; */
+}
+
+.category_button:hover {color: rgb(48, 213, 200);}
+
 #form_tab {
     order: 999;
     display: none;    
