@@ -4,13 +4,17 @@
 #tabscontainer {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     margin-right: 5%;
     margin-left: 5%;
     text-align: center;
     width: 90%;
+    height: 60%;
+    margin-bottom: 5%;
     max-width: var(--maximum_width);
     align-items: center;
     justify-content: center;
+
 }
 
 [name="radiogroupfortabs"] {
@@ -185,11 +189,10 @@
     order: 999;
     display: none;    
     z-index: 3;
-    top: 48px;
+    top: 10%;
     width: 100%;
     min-height: 5em;
-    overflow: hidden;    
-    padding: 10px 25px 25px 25px;
+    overflow: hidden;
     margin-top: 5%;
 }
 
