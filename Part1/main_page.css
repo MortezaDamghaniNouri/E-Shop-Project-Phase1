@@ -485,7 +485,7 @@ input[type=checkbox]:checked + label {
     background-color: white;
     margin-bottom: 15px;
     width: 31.5%;
-    height: 420px;
+    /* height: 420px; */
     color: black;
     font-family: var(--font_family);
     font-size: var(--font_size);
