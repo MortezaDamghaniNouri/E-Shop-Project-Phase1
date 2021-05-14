@@ -28,11 +28,6 @@
 
 }
 
-[name="radiogroupfortabs"] {
-    position: absolute; 
-    visibility: hidden; 
-}
-
 .search_lables {
     display: block;
     width: 200px;
@@ -69,7 +64,6 @@
     background-color: white;
     font-size: var(--font_size);
     font-family: var(--font_family);
-    /* text-align: r; */
 }
 
 .category_button:hover {color: rgb(48, 213, 200);}
@@ -80,39 +74,6 @@
     display: block;
 }
 
-#commodity_radio{-webkit-box-ordinal-group:1;order:1;}
-#category_radio{-webkit-box-ordinal-group:2;order:2;}
-#bills_radio{-webkit-box-ordinal-group:3;order:3;}
-
-#tab_label_commodity {
-    align-items: center;
-    display: block;
-    height: 30px;
-    width: 100%;
-    min-width: 50px;
-    border-bottom-right-radius: 24px;
-    border-top-right-radius: 24px;
-    font-size: var(--font_size);
-    font-family: var(--font_family);
-    transition: all 0.2s ease-in-out;
-    margin-top: 70px;
-    text-align: center;
-    justify-content: center;
-}
-
-#tab_label_category {
-    align-items: center;
-    display: block;
-    height: 30px;
-    width: 100%;
-    min-width: 50px;
-    font-size: var(--font_size);
-    font-family: var(--font_family);
-    transition: all 0.2s ease-in-out;
-    margin-top: 70px;
-    text-align: center;
-    justify-content: center;
-}
 
 #category_list {
     background-color: white;
@@ -163,26 +124,6 @@
 .min_with_150px{
     min-width: 150px;
     min-height: 40px;
-}
-
-#tab_label_bills {
-    align-items: center;
-    display: block;
-    height: 30px;
-    width: 100%;
-    min-width: 50px;
-    text-align: center;
-    border-bottom-left-radius: 24px;
-    border-top-left-radius: 24px;
-    font-size: var(--font_size);
-    font-family: var(--font_family);
-    transition: all 0.2s ease-in-out;
-    margin-top: 70px;
-    justify-content: center;
-}
-
-[id^="tab_label"]:hover {
-    background: #969696;  
 }
 
 .tab_content {
