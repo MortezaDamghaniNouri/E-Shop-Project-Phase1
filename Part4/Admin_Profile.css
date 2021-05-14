@@ -54,7 +54,6 @@
     background-color: white;
     font-size: var(--font_size);
     font-family: var(--font_family);
-    /* text-align: r; */
 }
 
 .category_button:hover {color: rgb(48, 213, 200);}
@@ -85,7 +84,7 @@
     font-size: var(--font_size);
     font-family: var(--font_family);
     transition: all 0.2s ease-in-out;
-    margin-top: 70px;
+    margin-top: 4%;
     text-align: center;
     justify-content: center;
 }
@@ -98,7 +97,7 @@
     font-size: var(--font_size);
     font-family: var(--font_family);
     transition: all 0.2s ease-in-out;
-    margin-top: 70px;
+    margin-top: 4%;
     text-align: center;
     justify-content: center;
 }
@@ -173,7 +172,7 @@
     font-size: var(--font_size);
     font-family: var(--font_family);
     transition: all 0.2s ease-in-out;
-    margin-top: 70px;
+    margin-top: 4%;
     justify-content: center;
 }
 
@@ -185,9 +184,8 @@
     order: 999;
     display: none;    
     z-index: 3;
-    top: 48px;
+    top: 10%;
     width: 100%;
-    min-height: 5em;
     overflow: hidden;    
     padding: 10px 25px 25px 25px;
     margin-top: 5%;
