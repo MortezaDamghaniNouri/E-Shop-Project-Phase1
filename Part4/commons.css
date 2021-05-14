@@ -257,10 +257,25 @@ footer {
 }
 
 
+.products_container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #e2e2e2;
+    width: 73%;
+    height: 860px;
+    color: black;
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+
+
+}
+
 .product_box {
     margin-right: 15px;
     background-color: white;
     margin-bottom: 15px;
+    max-width: 31.5%;
     width: 31.5%;
     height: 420px;
     color: black;

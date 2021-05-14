@@ -116,6 +116,58 @@
 
 }
 
+#tab-content1 {
+    height: 60%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: var(--font_size);
+    font-family: var(--font_family);
+    flex-wrap: wrap;
+}
+
+.circle {
+    position:inherit;
+    /* width: 100%; */
+    /* margin-right: 95%; */
+    top: -21px;
+    left: -21px;
+  
+    /* margin-top: 15%; */
+
+    /* padding-top: 5%; */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: #4da6ff;
+}
+
+.text {
+    position:  -ms-page;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    /* color: white; */
+}
+ 
+#add_product{
+    order: 999;
+    display: none;    
+    z-index: 3;
+    top: 18px;
+    width: 100%;
+    min-height: 5em;
+    overflow: hidden;    
+    margin-top: 2%;
+    margin-bottom: -3%;
+
+}
+
 #tab_label_bills {
     align-items: center;
     display: block;
@@ -156,7 +208,8 @@
     background-color: grey;
 }
 
-#commodity_radio:checked ~ #tab-content1{display: block;}
+#commodity_radio:checked ~ #tab-content1{display: flex;}
+#commodity_radio:checked ~ #add_product{display: block;}
 #category_radio:checked ~ #category_list{display: block;}
 #category_radio:checked ~ #form_tab{display: block;}
 #bills_radio:checked ~ #bills_list{display: block;}
