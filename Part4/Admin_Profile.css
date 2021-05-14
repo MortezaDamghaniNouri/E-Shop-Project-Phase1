@@ -119,7 +119,7 @@
 
 }
 
-#tab-content1 {
+#commodity_tab {
     height: 60%;
     width: 90%;
     margin-right: 5%;
@@ -148,16 +148,8 @@
   }
 
 #add_product{
-    order: 999;
-    display: none;    
-    z-index: 3;
-    top: 18px;
+    display: block;
     width: 100%;
-    min-height: 5em;
-    overflow: hidden;    
-    margin-top: 2%;
-    margin-bottom: -3%;
-
 }
 
 .min_with_150px{
@@ -197,18 +189,3 @@
     justify-content: center;
     display: block;
 }
-
-[name="radiogroupfortabs"]:checked + [id^="tab_label"] {
-    z-index: 3;
-    display: block;
-    height: 30px;
-    margin-top: 0px;
-    background: #c9c9c9;
-    background-color: grey;
-}
-
-#commodity_radio:checked ~ #tab-content1{display: flex;}
-#commodity_radio:checked ~ #add_product{display: block;}
-#category_radio:checked ~ #category_list{display: block;}
-#category_radio:checked ~ #form_tab{display: block;}
-#bills_radio:checked ~ #bills_list{display: block;}
