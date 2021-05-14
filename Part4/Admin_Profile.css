@@ -127,34 +127,23 @@
 }
 
 .circle {
-    position:inherit;
-    /* width: 100%; */
-    /* margin-right: 95%; */
-    top: -21px;
-    left: -21px;
-  
-    /* margin-top: 15%; */
-
-    /* padding-top: 5%; */
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-
-    background: #4da6ff;
+    position:relative;
+    margin-right: 94%;
+    top: -5px;
+    min-width: 35px;
+    min-height: 35px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 3px 3px 3px 3px grey;
 }
 
-.text {
-    position:  -ms-page;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+.text_center {
+    right: 25%;
+    align-content: center;
     text-align: center;
-    font-size: 20px;
-    /* color: white; */
-}
- 
+    align-self: center;
+  }
+
 #add_product{
     order: 999;
     display: none;    
