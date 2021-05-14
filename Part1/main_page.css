@@ -6,7 +6,7 @@
 
 }
 
-
+/* Handling some variables */
 :root {
     --font_size: 16px;
     --maximum_width: 1280px;
@@ -16,6 +16,7 @@
 }
 
 /* Header part starts here */
+/* Handling the main styles of headers */
 header {
     width: 100%;
     position: fixed;
@@ -31,6 +32,7 @@ header {
 
 }
 
+/* Handling the styles of each button in the header */
 .menu_button {
     display: flex;
     width: 35%;
@@ -40,6 +42,7 @@ header {
 
 }
 
+/* Handling the main styles of dropdown menu */
 #drop_down_menu {
     display: block;
     text-align: center;
@@ -56,23 +59,14 @@ header {
 
 
 }
-
+/* Handling the style of dropdown menu during hover */
 #drop_down_menu:hover {
     background-color: yellow;
 
 
 }
 
-
-.select_item {
-    background-color: grey;
-    font-size: var(--font_size);
-    display: block;
-
-
-}
-
-
+/* Handling the styles of entrance button in the header */
 #menu_button {
     display: block;
     text-align: center;
@@ -89,13 +83,14 @@ header {
 
 }
 
+/* Handling the style of entrance button in the header */
 #menu_button:hover {
     background-color: yellow;
 
 
 }
 
-
+/* Handling the styles of each item at the right part of the header */
 .menu_item {
 
     display: block;
@@ -105,11 +100,12 @@ header {
 
 }
 
+/* Handling the style of each item at the right part of the header */
 .menu_item:hover {
     color: rgb(48, 213, 200);
 }
 
-
+/* Handling the styles of the container of the items at the right part of the header */
 .menu_items {
     display: flex;
     width: 60%;
@@ -117,7 +113,7 @@ header {
 
 }
 
-
+/* Handling the styles of the shop icon at the top of the page */
 #shop_icon {
     padding-right: 60px;
     font-size: 120%;
@@ -173,6 +169,8 @@ header {
 
 
 }
+
+/* Handling the styles of the container of the dropdown menu */
 .dropdown:hover .dropbtn {
     position: relative;
     background-color: yellow;
@@ -180,7 +178,7 @@ header {
 
 }
 
-
+/* Handling the styles of the button at the dropdown menu */
 .dropbtn {
     display: block;
     text-align: center;
@@ -201,6 +199,7 @@ header {
 
 }
 
+/* Handling the styles of the button of the dropdown menu during hover */
 .dropbtn:hover {
     background-color: yellow;
 
@@ -212,6 +211,7 @@ header {
 
 /* Header part ends here */
 /* Footer part starts here */
+/* Handling the styles of the footer */
 footer {
 
 
@@ -230,7 +230,7 @@ footer {
 }
 
 /* Body part starts here */
-
+/* Handling the styles of the first block at the main page */
 #first_section {
     text-align: center;
     display: block;
@@ -242,6 +242,7 @@ footer {
 
 }
 
+/* Handling the styles of the hero title */
 #main_title {
 
     color: white;
@@ -251,6 +252,7 @@ footer {
 
 }
 
+/* Handling the styles of the container of the search bar at the first block */
 #search_bar_box {
     display: inline-block;
     text-align: center;
@@ -259,7 +261,7 @@ footer {
 
 }
 
-
+/* Handling the styles of the search bar block */
 #search_bar {
     display: block;
     width: 400px;
@@ -271,7 +273,7 @@ footer {
 
 }
 
-
+/* Handling the styles of the container of the dropdown menu */
 #search_button {
 
 
@@ -289,6 +291,7 @@ footer {
 
 }
 
+/* Handling the styles of the search button during hover */
 #search_button:hover {
 
     box-shadow: 5px 5px 5px 5px yellow;
@@ -296,6 +299,7 @@ footer {
 
 }
 
+/* Handling the styles of the clock image */
 #clock_image {
 
     max-width: var(--maximum_width);
@@ -304,6 +308,7 @@ footer {
 }
 
 /* Second section starts here */
+/* Handling the styles of the second block in the main page */
 #second_section {
     background-color: #e2e2e2;
     width: 100%;
@@ -317,6 +322,7 @@ footer {
 
 }
 
+/* Handling the styles of the arrangement bar */
 #arrangement_bar {
     display: block;
     width: 97%;
@@ -334,6 +340,7 @@ footer {
 
 }
 
+/* Handling the styles of the arrangement content */
 #arrangement_title {
     display: inline-block;
     margin-right: 30px;
@@ -341,6 +348,7 @@ footer {
 
 }
 
+/* Handling the styles of the arrangement buttons */
 .arrangement_button {
 
     text-align: center;
@@ -354,6 +362,7 @@ footer {
 
 }
 
+/* Handling the styles of the arrangement button during hover */
 .arrangement_button:hover {
     background-color: blue;
     color: white;
@@ -361,12 +370,14 @@ footer {
 
 }
 
+/* Handling the styles of the container of the button */
 .button_form {
     display: inline;
 
 
 }
 
+/* Handling the styles of the container of the categorization block */
 #categorizations_block {
     background-color: white;
     padding-top: 10px;
@@ -380,6 +391,7 @@ footer {
 
 }
 
+/* Handling the styles of the categorization title */
 #categorization_title {
     display: block;
     margin-right: 17px;
@@ -388,6 +400,7 @@ footer {
 
 }
 
+/* Handling the styles of the categorization checkbox */
 .categorization_checkbox {
     display: inline-block;
     margin-right: 17px;
@@ -402,13 +415,14 @@ input[type="checkbox"] {
 
 }
 
+/* Check box choices styles */
 input[type=checkbox]:checked + label {
 
     font-weight: bolder;
     color: #39ff14;
 
 }
-
+/* Check box choices styles */
 #checkbox_fieldset {
 
     display: block;
@@ -418,7 +432,7 @@ input[type=checkbox]:checked + label {
 
 
 }
-
+/* Check box choices styles */
 #range_slider {
     display: block;
     width: 90%;
@@ -444,13 +458,14 @@ input[type=checkbox]:checked + label {
 
 }
 
-
+/* Handling the styles of HRs in the HTML code */
 .blank {
     width: 100%;
 
 
 }
 
+/* Handling the styles of the right main block of the page */
 #right_side_block {
     display: block;
     width: 25%;
@@ -459,6 +474,7 @@ input[type=checkbox]:checked + label {
 
 }
 
+/* Handling the styles of the block adjuster */
 #price_adjuster_block {
     display: block;
     background-color: white;
@@ -473,6 +489,7 @@ input[type=checkbox]:checked + label {
 
 }
 
+/* Handling the styles of the price adjuster title */
 #price_adjuster_title {
     margin-right: 17px;
     padding-top: 10px;
@@ -480,6 +497,7 @@ input[type=checkbox]:checked + label {
 
 }
 
+/* Handling the styles of the container of the product */
 .product_box {
     margin-right: 15px;
     background-color: white;
@@ -494,7 +512,7 @@ input[type=checkbox]:checked + label {
 
 }
 
-
+/* Handling the styles of product image */
 .product_image {
     display: block;
     height: 200px;
@@ -505,6 +523,7 @@ input[type=checkbox]:checked + label {
 
 }
 
+/* Handling the styles of the name of each product */
 .product_name {
     display: block;
     margin-right: 17px;
@@ -512,7 +531,7 @@ input[type=checkbox]:checked + label {
 
 }
 
-
+/* Handling the styles of the category of each product */
 .product_category {
     display: block;
     margin-right: 17px;
@@ -522,6 +541,7 @@ input[type=checkbox]:checked + label {
 
 }
 
+/* Handling the styles of the purchase button of each product */
 .product_price_and_button {
     display: inline-flex;
     width: 100%;
@@ -529,7 +549,7 @@ input[type=checkbox]:checked + label {
 
 }
 
-
+/* Handling the styles of the price of each product */
 .product_price {
     display: block;
     margin-right: 17px;
@@ -537,7 +557,7 @@ input[type=checkbox]:checked + label {
 
 }
 
-
+/* Handling the styles of the purchase button of each product */
 .product_buy_button {
     display: block;
     border-radius: 24px;
@@ -549,7 +569,7 @@ input[type=checkbox]:checked + label {
     width: 50%;
 
 }
-
+/* Handling the styles of the body of the HTML code */
 body {
     display: flex;
     align-items: center;
