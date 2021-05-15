@@ -7,7 +7,7 @@
 
 }
 
-
+/* Handling some variables */
 :root {
     --font_size: 16px;
     --maximum_width: 1280px;
@@ -18,6 +18,7 @@
 
 
 /* Header part starts here */
+/* Handling the main styles of headers */
 header {
     width: 100%;
     position: fixed;
@@ -33,16 +34,7 @@ header {
 
 }
 
-
-.select_item {
-    background-color: grey;
-    font-size: var(--font_size);
-    display: block;
-
-
-}
-
-
+/* Handling the styles of each button in the header */
 #menu_button {
     display: block;
     text-align: center;
@@ -59,13 +51,14 @@ header {
 
 }
 
+/* Handling the style of entrance button in the header */
 #menu_button:hover {
     background-color: yellow;
 
 
 }
 
-
+/* Handling the styles of each item at the right part of the header */
 .menu_item {
 
     display: block;
@@ -75,11 +68,12 @@ header {
 
 }
 
+/* Handling the style of each item at the right part of the header */
 .menu_item:hover {
     color: rgb(48, 213, 200);
 }
 
-
+/* Handling the styles of the container of the items at the right part of the header */
 .menu_items {
     display: flex;
     width: 60%;
@@ -87,7 +81,7 @@ header {
 
 }
 
-
+/* Handling the styles of the shop icon at the top of the page */
 #shop_icon {
     padding-right: 60px;
     font-size: 120%;
@@ -143,6 +137,7 @@ header {
 
 
 }
+/* Handling the styles of the container of the dropdown menu */
 .dropdown:hover .dropbtn {
     position: relative;
     background-color: yellow;
@@ -151,7 +146,7 @@ header {
 }
 
 
-
+/* Handling the styles of the button at the dropdown menu */
 .dropbtn {
     display: block;
     text-align: center;
@@ -172,10 +167,12 @@ header {
 
 }
 
+/* Handling the styles of the button of the dropdown menu during hover */
 .dropbtn:hover {
     background-color: yellow;
 
 }
+/* Handling the styles of the last content of the dropdown menu*/
 #last_content {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -187,6 +184,7 @@ header {
 
 /* Header part ends here */
 /* Footer part starts here */
+/* Handling the styles of the footer */
 footer {
 
 
@@ -204,7 +202,7 @@ footer {
 
 }
 
-
+/* Handling the styles of the body of the HTML code */
 body {
     display: flex;
     align-items: center;
@@ -214,7 +212,7 @@ body {
 
 }
 
-
+/* Handling the styles of the main container of this page */
 #user_profile {
     display: block;
     width: 60%;
@@ -230,6 +228,7 @@ body {
 
 }
 
+/* Handling the styles of the container of the title of this page */
 #title {
     display: flex;
     width: 100%;
@@ -238,7 +237,7 @@ body {
 
 }
 
-
+/* Handling the styles of the welcome message of this page*/
 #welcome_message {
     display: block;
     font-weight: bold;
@@ -247,6 +246,7 @@ body {
 
 }
 
+/* Handling the styles of the raise deposit button of this page */
 #raise_deposit_button {
     height: 7%;
     width: 12%;
@@ -258,6 +258,7 @@ body {
 
 }
 
+/* Handling the styles of the user deposit */
 #user_deposit {
     margin-right: 2%;
     margin-left: 2%;
@@ -265,7 +266,7 @@ body {
 
 }
 
-
+/* Handling the styles of the tabs bar of this page */
 #tabs {
     display: flex;
     width: 100%;
@@ -275,6 +276,7 @@ body {
 
 }
 
+/* Handling the styles of the profile button in the tabs bar */
 #profile_button {
     height: 100%;
     width: 15%;
@@ -287,6 +289,7 @@ body {
 
 }
 
+/* Handling the styles of the bills button in the tabs bar */
 #bills_button {
     height: 100%;
     width: 15%;
@@ -299,6 +302,7 @@ body {
 
 }
 
+/* Handling the styles of the user address bar */
 .address_input {
     display: block;
     width: 100%;
@@ -311,6 +315,7 @@ body {
 
 }
 
+/* Handling the styles of the user address label */
 #address_label {
     display: block;
     width: 120px;
@@ -324,6 +329,7 @@ body {
 
 }
 
+/* Handling the styles of the edit button at the bottom of the page */
 #edit_button {
     width: 15%;
     height: 10%;
