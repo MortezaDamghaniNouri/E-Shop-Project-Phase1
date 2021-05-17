@@ -73,11 +73,9 @@
 
 /* this class make an object vertically center of page*/
 .vertical_center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+    margin: auto;
+    padding: 10px;
+}
   
 /* Handling the styles of the authorization div that contains authorization table */
 .authorization_div{
