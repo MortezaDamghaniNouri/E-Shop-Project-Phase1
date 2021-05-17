@@ -64,9 +64,11 @@
 }
 
 .vertical_center {
-    margin: auto;
-    padding: 10px;
-}
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
   
 .authorization_div{
     background-color: #e2e2e2;
