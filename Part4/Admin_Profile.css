@@ -1,15 +1,18 @@
 @import "profile_commons.css";
 @import "authorization_commons.css";
 
+/* Handling the styles of each button in the tabs bar */
 .button_checked {
     background-color: grey;
 
 }
 
+/* Handling the styles of each button in the tabs bar */
 .button_unchecked {
     background-color: #e2e2e2;
 }
 
+/* Handling the styles of the category button in the tabs bar */
 #profile_category {
     height: 100%;
     width: 15%;
@@ -18,6 +21,7 @@
 
 }
 
+/* Handling the styles of the commodity button in the tabs bar */
 #profile_commodity {
     height: 100%;
     width: 15%;
@@ -28,6 +32,7 @@
 
 }
 
+/* Handling the styles of the search lable on the top of the category list*/
 .search_lables {
     display: block;
     width: 200px;
@@ -42,6 +47,7 @@
     border-bottom-right-radius: 2px;
 }
 
+/* Handling the styles of the search input on the top of the category list*/
 .search_input {
     width: 500px;
     background-color: white;
@@ -53,12 +59,14 @@
 
 }
 
+/* Handling the styles of the search form on the top of the category list*/
 .search_form {
     display: inline-block;
     text-align: center;
     width: 100%;
 }
 
+/* Handling the styles of the each button int the category list*/
 .category_button{
     border: none;
     background-color: white;
@@ -66,6 +74,7 @@
     font-family: var(--font_family);
 }
 
+/* Handling the styles of the each button int the category list*/
 .category_button:hover {color: rgb(48, 213, 200);}
 
 #form_tab {
@@ -75,6 +84,7 @@
 }
 
 
+/* Handling the styles of the category list*/
 #category_list {
     background-color: white;
     height: 70%;
@@ -90,6 +100,7 @@
 
 }
 
+/* Handling the styles of the commodity tab*/
 #commodity_tab {
     height: 40%;
     width: 90%;
@@ -100,6 +111,7 @@
     flex-wrap: wrap;
 }
 
+/* Handling the styles of each cirles in the commodity tab*/
 .circle {
     position:relative;
     margin-right: 94%;
@@ -111,6 +123,7 @@
     box-shadow: 3px 3px 3px 3px grey;
 }
 
+/* make every text center of each circles */
 .text_center {
     right: 25%;
     align-content: center;
@@ -118,17 +131,20 @@
     align-self: center;
   }
 
+/* Handling the styles of the add product button on the top of the commodity tab*/
 #add_product{
     display: block;
     width: 100%;
 }
 
+/* make minimum size of an object 150*40*/
 .min_with_150px{
     min-width: 150px;
     min-height: 40px;
 
 }
 
+/* Handling the styles of each tab*/
 .tab_content {
     z-index: 3;
     top: 10%;
@@ -142,6 +158,7 @@
     display: block;
 }
 
+/* make minimum width of an object 5%*/
 .small_cell {
     width: 5%;
 

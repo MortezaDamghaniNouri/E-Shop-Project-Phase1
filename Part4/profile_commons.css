@@ -1,5 +1,6 @@
 @import "commons.css";
 
+/* Handling the styles of the welcome message in the page */
 #welcome_message {
     margin-top: 70px;
     display: flex;
@@ -13,6 +14,7 @@
 
 }
 
+/* Handling the styles of the tabs bar in the page */
 #tabs {
     display: flex;
     width: 100%;
@@ -25,6 +27,7 @@
 
 }
 
+/* Handling the styles of the bills button in the tabs bar */
 #bills_button {
     height: 100%;
     width: 15%;
@@ -35,6 +38,7 @@
 
 }
 
+/* Handling the styles of the bills list in the tabs bar */
 #bills_list {
     display: block;
     background-color: white;
@@ -51,12 +55,14 @@
 
 }
 
+/* Handling the styles of each row in the container of purchased products */
 .row {
     display: flex;
 
 
 }
 
+/* Handling the styles of each cell in the container of purchased products */
 .cell {
     display: block;
     margin-right: 3%;
@@ -68,6 +74,7 @@
 
 }
 
+/* Handling the styles of each hr in HTML file */
 hr {
     display: block;
     margin-right: 1%;
@@ -76,6 +83,7 @@ hr {
 
 }
 
+/* Handling the styles of the main container of the page */
 #main_div {
     display: flex;
     align-items: center;

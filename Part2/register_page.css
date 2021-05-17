@@ -1,5 +1,6 @@
 @import "authorization_commons.css";
 
+/* Handling the styles of the address input */
 .address_input {
     display: block;
     width: 100%;
@@ -13,6 +14,7 @@
 
 }
 
+/* Handling the styles of the address lable */
 #address_label {
     display: block;
     width: 120px;

@@ -304,7 +304,7 @@ body {
 
 }
 
-/* Handling the styles of the bills button in the tabs bar */
+/* Handling the styles of the bills list in the tabs bar */
 #bills_list {
     display: block;
     background-color: white;
