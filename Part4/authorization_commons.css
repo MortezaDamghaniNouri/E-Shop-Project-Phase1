@@ -1,6 +1,9 @@
 @import "commons.css";
 
-.authorization_button { /*class*/
+
+
+/* Handling the styles of the authorization button */
+.authorization_button {
     display: inline;
     border-radius: 30px;
     color: black;
@@ -14,6 +17,7 @@
     border: 0;
 }
 
+/* Handling the styles of the authorization form */
 .authorization_form {
     display: inline-block;
     text-align: center;
@@ -22,6 +26,7 @@
     width: 100%;
 }
 
+/* Handling the styles of the authorization input */
 .text_input {
     display: block;
     width: 200px;
@@ -34,6 +39,7 @@
 
 }
 
+/* Handling the styles of the authorization lables */
 .lables {
     display: block;
     border-top-right-radius: 10px;
@@ -48,6 +54,7 @@
     color: white;
 }
 
+/* an 10 * 30 empty block*/
 .empty_lables {
     display: block;
     width: 10px;
@@ -55,6 +62,7 @@
     height: 30px;
 }
 
+/* an 10 * 6 empty block*/  
 .few_distance_lables {
     display: block;
     width: 10px;
@@ -63,6 +71,7 @@
 
 }
 
+/* this class make an object vertically center of page*/
 .vertical_center {
     margin: 0;
     position: absolute;
@@ -70,6 +79,7 @@
     transform: translateY(-50%);
   }
   
+/* Handling the styles of the authorization div that contains authorization table */
 .authorization_div{
     background-color: #e2e2e2;
     text-align: center;
@@ -83,6 +93,7 @@
     flex-direction: row;
 }
 
+/* Handling the styles of the authorization table that contains authorization inputs and lables */
 .authorization_table{
     text-align: center;
     display: block;
@@ -92,6 +103,7 @@
 
 }
 
+/* Handling the styles of the authorization title on the top of authorization table */
 .authorization_title{
     text-align: center;
     display: block;
