@@ -1,5 +1,6 @@
 /* start commons 
     we should make it in one file later + it's content*/
+/* It is used to remove the initial white spaces which browsers use */
 * {
     margin: 0px;
     padding: 0px;
@@ -9,6 +10,7 @@
 
 
 
+/* Handling some variables */
 :root {
     --font_size: 16px;
     --maximum_width: 1280px;
@@ -20,6 +22,7 @@
 
 
 /* Header part starts here */
+/* Handling the main styles of headers */
 header {
     width: 100%;
     position: fixed;
@@ -34,6 +37,8 @@ header {
 
 
 }
+
+/* Handling the styles of each button in the header */
 .menu_button {
     display: flex;
     width: 35%;
@@ -52,6 +57,7 @@ body {
     flex-direction: row;
 }
 
+/* Handling the main styles of dropdown menu */
 #drop_down_menu {
     display: block;
     text-align: center;
@@ -73,6 +79,7 @@ body {
 
 }
 
+/* Handling the style of dropdown menu during hover */
 #drop_down_menu:hover {
     background-color: yellow;
 
@@ -85,6 +92,7 @@ body {
 
 
 
+/* Handling the styles of entrance button in the header */
 .select_item {
     background-color: grey;
     font-size: var(--font_size);
@@ -95,6 +103,7 @@ body {
 
 }
 
+/* Handling the style of entrance button in the header */
 #menu_button {
     display: block;
     text-align: center;
@@ -114,6 +123,7 @@ body {
 
 }
 
+/* Handling the style of entrance button in the header */
 #menu_button:hover {
     background-color: yellow;
 
@@ -121,6 +131,7 @@ body {
 }
 
 
+/* Handling the styles of each item at the right part of the header */
 .menu_item {
 
     display: block;
@@ -129,9 +140,12 @@ body {
 
 
 }
+
+/* Handling the style of each item at the right part of the header */
 .menu_item:hover {color: rgb(48, 213, 200);}
 
 
+/* Handling the styles of the container of the items at the right part of the header */
 .menu_items {
     display: flex;
     width: 60%;
@@ -141,6 +155,7 @@ body {
 }
 
 
+/* Handling the styles of the shop icon at the top of the page */
 #shop_icon {
     padding-right: 60px;
     font-size: 120%;
@@ -196,6 +211,8 @@ body {
 
 
 }
+
+/* Handling the styles of the container of the dropdown menu */
 .dropdown:hover .dropbtn {
     position: relative;
     background-color: yellow;
@@ -205,6 +222,7 @@ body {
 
 
 
+/* Handling the styles of the button at the dropdown menu */
 .dropbtn {
     display: block;
     text-align: center;
@@ -229,6 +247,8 @@ body {
     background-color: yellow;
 
 }
+
+/* Handling the styles of the button of the dropdown menu during hover */
 #last_content {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -239,6 +259,7 @@ body {
 
 /* Header part ends here */
 /* Footer part starts here */
+/* Handling the styles of the footer */
 footer {
 
 
@@ -257,6 +278,7 @@ footer {
 }
 
 
+/* Product boxes design */
 .products_container {
     display: inline-flex;
     flex-wrap: wrap;
@@ -271,6 +293,7 @@ footer {
 
 }
 
+/* Handling the styles of the container of the product */
 .product_box {
     margin-right: 15px;
     background-color: white;
@@ -287,6 +310,7 @@ footer {
 }
 
 
+/* Handling the styles of product image */
 .product_image {
     display: inherit;
     height: 50%;
@@ -298,6 +322,7 @@ footer {
 
 }
 
+/* Handling the styles of the name of each product */
 .product_name {
     display: block;
     margin-right: 17px;
@@ -305,6 +330,7 @@ footer {
 
 }
 
+/* Handling the styles of the category of each product */
 .product_category {
     display: block;
     margin-right: 17px;
@@ -314,6 +340,7 @@ footer {
 
 }
 
+/* Handling the styles of the purchase button of each product */
 .product_price_and_button {
     display: inline-flex;
     width: 100%;
@@ -322,6 +349,7 @@ footer {
 }
 
 
+/* Handling the styles of the price of each product */
 .product_price {
     display: block;
     margin-right: 17px;
@@ -330,6 +358,7 @@ footer {
 }
 
 
+/* Handling the styles of the purchase button of each product */
 .product_buy_button {
     display: block;
     border-radius: 24px;
@@ -342,6 +371,7 @@ footer {
 
 }
 
+/* Handling the styles of the body of the HTML code */
 body {
     display: flex;
     align-items: center;
