@@ -343,6 +343,19 @@ body {
 
 }
 
+.password_input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    line-height: 30px;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+
 
 
 
